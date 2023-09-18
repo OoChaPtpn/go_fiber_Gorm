@@ -12,7 +12,7 @@ import (
 var DB *gorm.DB
 var err error
 
-const DNS = "sqlserver://fx-alnath.cco2.thunghuasinn.com?database=fx_pd_dev" //:9930
+const DNS = "sqlserver://user:password@localhost:9930?database=gorm"
 
 type User struct {
 	gorm.Model
