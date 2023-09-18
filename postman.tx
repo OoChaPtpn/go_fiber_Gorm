@@ -1,0 +1,7 @@
+GET http://localhost:3000/users
+
+{
+    "first_name" : "Gin",
+    "last_name" : "Framework",
+    "e_mail" : "pong@email.com"
+}
